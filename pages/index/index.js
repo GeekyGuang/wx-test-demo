@@ -4,6 +4,7 @@
 
 Page({
   data: {
-    message: 'hello world!'
+    message: 'hello world!',
+    movies: ['蜘蛛侠', '钢铁侠', '咸蛋超人']
   },
 })

@@ -1,2 +1,8 @@
-<!--index.wxml-->
+<!-- 1. hello world-->
 <view>{{message}}</view>
+
+<!-- 2. 电影列表 -->
+<block wx:for="{{movies}}" wx:key="*this">
+  <view class="movie">{{item}}</view>
+</block>
+
