@@ -6,3 +6,7 @@
   <view class="movie">{{item}}</view>
 </block>
 
+<!-- 3. 计数器 -->
+<view>{{counter}}</view>
+<button size="mini" bind:tap="handleIncrement">+1</button>
+<button size="mini" bind:tap="handleDecrement">-1</button>
